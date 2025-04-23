@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket: The Gentleman's Game - ModernBlog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .blog-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .blog-title {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .blog-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .blog-content {
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .blog-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .blog-tags {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: #f0f0f0;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-blog"></i>
+            <a href="index.html">ModernBlog</a>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#posts">Posts</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Blog Content -->
+    <div class="blog-container">
+        <div class="blog-header">
+            <h1 class="blog-title">Cricket: The Gentleman's Game</h1>
+            <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> April 8, 2024</span>
+                <span><i class="far fa-clock"></i> 5 min read</span>
+            </div>
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cricket Field" class="blog-image">
+
+        <div class="blog-content">
+            <p>Cricket, often referred to as the "gentleman's game," is a sport that has captured the hearts of millions worldwide. With its rich history spanning over 400 years, cricket has evolved from a simple pastime in rural England to a global phenomenon that unites nations and cultures.</p>
+
+            <p>The game's unique blend of strategy, skill, and sportsmanship makes it truly special. Unlike many other sports, cricket matches can last anywhere from a few hours to five days, creating an unparalleled narrative that unfolds like a gripping novel. The ebb and flow of the game, where fortunes can change in a matter of overs, keeps spectators on the edge of their seats.</p>
+
+            <p>At its core, cricket is a battle between bat and ball, where eleven players on each team strive to outscore their opponents. The batsman's elegant strokeplay, the bowler's crafty deliveries, and the fielder's acrobatic catches all contribute to the game's beauty. The sound of leather on willow, the roar of the crowd, and the tension of a close match create an atmosphere that is unmatched in sports.</p>
+
+            <p>The sport's global appeal is evident in its diverse fan base. From the packed stadiums in India and Australia to the village greens of England, cricket brings people together. The ICC Cricket World Cup, held every four years, is one of the most-watched sporting events globally, showcasing the game's ability to transcend cultural and geographical boundaries.</p>
+
+            <p>Modern cricket has embraced innovation while maintaining its traditional values. The introduction of Twenty20 cricket has brought a new dimension to the game, making it more accessible and entertaining for younger audiences. Yet, the longer formats of the game continue to thrive, preserving the strategic depth that makes cricket unique.</p>
+
+            <p>The spirit of cricket, encapsulated in the phrase "that's not cricket," emphasizes fair play and respect for opponents. This ethos has helped cricket maintain its reputation as a gentleman's game, where sportsmanship is valued as highly as victory. The game teaches valuable life lessons about patience, perseverance, and teamwork.</p>
+
+            <p>As cricket continues to evolve, it remains a testament to the enduring appeal of traditional sports in our modern world. Whether you're a die-hard fan or a casual observer, cricket's rich heritage and exciting gameplay make it a sport worth following and celebrating.</p>
+        </div>
+
+        <div class="blog-tags">
+            <span class="tag">Cricket</span>
+            <span class="tag">Sports</span>
+            <span class="tag">Culture</span>
+            <span class="tag">History</span>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('navMenu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 

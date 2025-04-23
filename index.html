@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Firebase SDK -->
+    <script type="module" src="firebase-config.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-blog"></i>
+            <a href="#">ModernBlog</a>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cricket-blog.html">Posts</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to ModernBlog</h1>
+            <p>Discover amazing stories and insights</p>
+            <a href="#posts" class="cta-button">Read Posts</a>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section id="posts" class="posts">
+        <div class="container">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <!-- Post 1 -->
+                <div class="post-card">
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Tech Blog">
+                    <div class="post-content">
+                        <span class="tag">Technology</span>
+                        <h3>The Future of Web Development</h3>
+                        <p>Explore the latest trends in web development and technology.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="post-card">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643" alt="Travel Blog">
+                    <div class="post-content">
+                        <span class="tag">Travel</span>
+                        <h3>Hidden Gems of Europe</h3>
+                        <p>Discover the most beautiful hidden locations in Europe.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="post-card">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="Food Blog">
+                    <div class="post-content">
+                        <span class="tag">Food</span>
+                        <h3>Culinary Adventures</h3>
+                        <p>Explore delicious recipes and cooking tips.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest posts delivered right to your inbox</p>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>A modern platform for sharing stories and ideas.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#posts">Posts</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ModernBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
